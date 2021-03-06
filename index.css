@@ -1,0 +1,29 @@
+.calculater{
+    background-color: gray;
+    padding: 10px; 
+    width: 250px;
+    height: 300px;
+    margin:auto;
+}
+#input{
+    width: 98%;
+    height:40px;
+    background-color: white;
+    
+}
+.number-container{
+ 
+  padding: 10px;
+   
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+}
+
+
+.number{
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  
+  border: 1px solid black;
+}
